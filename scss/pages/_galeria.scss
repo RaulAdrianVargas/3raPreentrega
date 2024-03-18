@@ -1,0 +1,90 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .content{
+        margin-top: 120px;
+        margin-bottom: 50px;
+        text-align: center;
+        background-image: linear-gradient(to top, (#00000063), (#000000ad));
+        width: 80%;
+        max-width: 600px;
+        height: auto;
+        padding: 20px;
+        border-radius: 20px;
+        gap: 20px;
+        .texto_galeria{
+            color: #fff;
+            .h2_galeria{
+                padding: 20px;
+                color: #fff;
+                margin: 0;
+            }
+            .parrafo_galeria{
+                font-size: 18px;
+                padding: 20px;
+                color: #fff;
+            }
+        }
+    a{
+        display: inline-block;
+        margin: 20px;
+        padding: 10px 20px;
+        background-color: #fff;
+        color: $color-boton;
+        border-radius: 20px;
+        border: 2px solid #fff;
+        font-size: large;
+        transition: 0.3s;
+            &:hover{
+                color: #fff;
+                background-color: rgba(255,255,255,0.2);
+            }
+    }
+    }
+}
+
+.info{    
+    width: 100%;
+    margin: auto;
+    height: auto;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    .container_info{
+        width: 100%;
+        padding: 50px;
+        height: auto;
+        ul{
+            padding: 0;
+        }
+    }
+}
+
+#videos{
+    height: auto;
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    background-color: $color-principal;
+    color: #fff;
+    h2{
+        padding: 20px;
+    }
+    .container-galeria{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background-color: $color-boton;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 20px 12px;
+            .container-video{
+                display: flex;
+                min-width: 300px;
+                max-width: 1024px;
+                overflow: hidden;
+            }
+    }
+}

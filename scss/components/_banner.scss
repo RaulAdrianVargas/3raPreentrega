@@ -1,0 +1,56 @@
+.banner{
+    position: relative;
+    height: 100vh;
+    background: map-get($imagenes, imgfondo ) no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content{
+        position: relative;
+    }
+}
+.banner::before {
+    content: "";
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25); 
+}
+
+
+.banner-nuevo{
+    height: 100vh;
+    background: map-get($imagenes, imgnuevo ) no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.banner-comercio{
+    height: 100vh;
+    background: map-get($imagenes, imgcomercio ) no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.banner-mantenimiento{
+    height: 100vh;
+    background: map-get($imagenes,imgmantenimiento ) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.banner-galeria{
+    height: 100vh;
+    background: map-get($imagenes,imggaleria ) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}

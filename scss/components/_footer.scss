@@ -1,0 +1,48 @@
+
+.footer-index{
+    width: 100%;
+    height: auto;
+    background-color: $color-principal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .redes{
+            display: inline;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            .contenedor-contacto{
+                a{
+                    font-size: 25px;
+                    color: #fff;
+                    padding: 30px;
+                    &:hover{
+                        color: $color-boton;
+                    }
+                }
+                .texto-footer{
+                    display: none;
+                }
+            }
+            .contenedor-sociales{
+                display: none;
+                justify-content: space-evenly;
+                width: 100%;
+                a{
+                    color: #fff;
+                    padding: 40px;
+                    font-size: 25px;
+                
+            }
+            }
+        }
+    .parrafo-footer{
+        margin: 0;
+        color: #fff;
+        text-align: center;
+        padding: 6px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

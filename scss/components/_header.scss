@@ -1,0 +1,100 @@
+
+.nav-container{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 25px 0;
+    transition: all 0.3s ease;
+    
+        .icono{
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+            display: none;
+            
+        }
+        .nav-div{
+        max-width: 1250px;
+        margin: auto;
+        padding: 0 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav-logo{
+            a{
+                color: #fff;
+                font-size: 30px;
+                font-weight: bold;
+                padding-left: 20px;
+                &:hover{
+                    color: cyan;
+                }
+            }
+        
+        }
+        .nav-list{
+            display: inline-flex;
+            margin: 0;
+                .cerrar-boton{
+                position: absolute;
+                right: 30px;
+                top: 20px;
+                }
+                .nav-item{
+                    color: #ffffff;
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-left: 25px;
+                    transition: all 0.3s ease;            
+                        &:hover{
+                            color: cyan;
+                        }
+                }
+        }
+}
+
+&.sticky{
+    padding: 10px 0;
+    background-color: $color-principal;
+}
+
+
+    @media (max-width:864px) {
+        
+        
+        .nav-div{
+            .icono{
+                display: block;
+            }
+            .icono.hide{
+                display: none;
+            }
+            .nav-list{
+                position: fixed;
+                top: 0;
+                left: -100%;
+                height: 100vh;
+                width: 100%;
+                max-width: 400px;
+                background: rgb(21, 39, 68);
+                display: block;
+                padding: 40px 0;
+                text-align: center;
+                transition: all 0.3s ease;
+                    li{
+                        margin-top: 45px;
+                        .nav-item{
+                            font-size: 23px;
+                        }
+                    }
+            }
+            .nav-list.active{
+                left: 0;
+            }
+        }
+    }
+}    
+
+body.disabledScroll{
+    overflow: hidden;
+}

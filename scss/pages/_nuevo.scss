@@ -1,0 +1,40 @@
+.banner-nuevo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content{
+        text-align: center;
+        background-image: linear-gradient(to top, (#00000063), (#000000ad));
+        width: 80%;
+        max-width: 600px;
+        height: auto;
+        padding: 20px;
+        border-radius: 20px;
+        gap: 20px;
+        .texto_nuevo{
+            h2{
+                padding: 20px;
+                color: #fff;
+            }
+            .parrafo_nuevo{
+                font-size: 18px;
+                padding: 20px;
+                color: #fff;
+            }
+        }
+    a{
+        padding: 10px 20px;
+        background-color: #fff;
+        color: $color-boton;
+        border-radius: 20px;
+        border: 2px solid #fff;
+        font-size: large;
+        transition: 0.3s;
+            &:hover{
+                color: #fff;
+                background-color: rgba(255,255,255,0.2);
+            }
+    }
+    }
+}
