@@ -126,7 +126,7 @@ body.disabledScroll {
 
 .banner-nuevo {
   height: 100vh;
-  background: url(../multimedia/instnuevo.jpg) no-repeat;
+  background: url(../multimedia/instnuevo.jpg);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -134,7 +134,7 @@ body.disabledScroll {
 
 .banner-comercio {
   height: 100vh;
-  background: url(../multimedia/comercio.jpeg) no-repeat;
+  background: url(../multimedia/comercio.jpeg);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -142,17 +142,17 @@ body.disabledScroll {
 
 .banner-mantenimiento {
   height: 100vh;
-  background: url(../multimedia/mantenimiento.jpg) no-repeat;
+  background: url(../multimedia/mantenimiento.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   background-attachment: fixed;
 }
 
 .banner-galeria {
   height: 100vh;
-  background: url(../multimedia/controles.jpg) no-repeat;
+  background: url(../multimedia/controles.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   background-attachment: fixed;
 }
 

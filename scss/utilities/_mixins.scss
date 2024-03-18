@@ -1,0 +1,7 @@
+@mixin baner ($fondo){
+    height: 100vh;
+    background: $fondo;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}

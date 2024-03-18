@@ -22,35 +22,18 @@
     background-color: rgba(0, 0, 0, 0.25); 
 }
 
-
 .banner-nuevo{
-    height: 100vh;
-    background: map-get($imagenes, imgnuevo ) no-repeat;
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
+    @include baner(map-get($imagenes, imgnuevo))
 }
 
 .banner-comercio{
-    height: 100vh;
-    background: map-get($imagenes, imgcomercio ) no-repeat;
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
+    @include baner(map-get($imagenes, imgcomercio))
 }
 
 .banner-mantenimiento{
-    height: 100vh;
-    background: map-get($imagenes,imgmantenimiento ) no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
+    @include baner(map-get($imagenes, imgmantenimiento))
 }
 
 .banner-galeria{
-    height: 100vh;
-    background: map-get($imagenes,imggaleria ) no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
+    @include baner(map-get($imagenes, imggaleria))
 }
