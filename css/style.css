@@ -156,6 +156,14 @@ body.disabledScroll {
   background-attachment: fixed;
 }
 
+.banner-calor {
+  height: 100vh;
+  background: url(../multimedia/caloventor.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
 .footer-index {
   width: 100%;
   height: auto;
@@ -239,12 +247,16 @@ body.disabledScroll {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+main {
+  background-color: #f5f7fc;
+}
+
 .sobre_nosotros {
   width: 100%;
   max-width: 768px;
   margin: auto;
   height: auto;
-  background-color: #EBF0F8;
+  background-color: #f5f7fc;
 }
 .sobre_nosotros .sobre_nosotros-container {
   padding: 3em;
@@ -262,6 +274,29 @@ body.disabledScroll {
   color: #061A3E;
 }
 .sobre_nosotros .sobre_nosotros-container .sobre_nosotros-parrafo {
+  padding: 0.6em;
+  font-size: 18px;
+}
+
+.banner-calor .h2_calor {
+  padding: 20px;
+  color: #fff;
+}
+.banner-calor .parrafo_calor {
+  font-size: 18px;
+  padding: 20px;
+  color: #fff;
+}
+
+#sobre_calor {
+  padding: 3em;
+  text-align: center;
+}
+#sobre_calor h2 {
+  padding: 0.5em;
+  color: #061A3E;
+}
+#sobre_calor p {
   padding: 0.6em;
   font-size: 18px;
 }
@@ -320,6 +355,7 @@ body.disabledScroll {
   margin: 0 auto;
   max-width: 1200px;
   text-align: center;
+  background-color: #f5f7fc;
 }
 .info .container_info {
   width: 100%;
@@ -357,6 +393,10 @@ body.disabledScroll {
   overflow: hidden;
 }
 
+body {
+  background-color: #f5f7fc;
+}
+
 .banner-nuevo {
   position: relative;
   display: flex;
@@ -373,7 +413,7 @@ body.disabledScroll {
   border-radius: 20px;
   gap: 20px;
 }
-.banner-nuevo .content .texto_nuevo h2 {
+.banner-nuevo .content .texto_nuevo h1 {
   padding: 20px;
   color: #fff;
 }
@@ -396,6 +436,19 @@ body.disabledScroll {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+#nuevo-parrafo {
+  padding: 3em;
+  text-align: center;
+}
+#nuevo-parrafo h2 {
+  padding: 0.5em;
+  color: #061A3E;
+}
+#nuevo-parrafo p {
+  padding: 0.6em;
+  font-size: 18px;
+}
+
 .banner-comercio {
   display: flex;
   justify-content: center;
@@ -411,7 +464,7 @@ body.disabledScroll {
   border-radius: 20px;
   gap: 20px;
 }
-.banner-comercio .content .texto_comercio h2 {
+.banner-comercio .content .texto_comercio h1 {
   padding: 20px;
   color: #fff;
 }
@@ -434,6 +487,19 @@ body.disabledScroll {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+#parrafo-comercial {
+  padding: 3em;
+  text-align: center;
+}
+#parrafo-comercial h2 {
+  padding: 0.5em;
+  color: #061A3E;
+}
+#parrafo-comercial p {
+  padding: 0.6em;
+  font-size: 18px;
+}
+
 .banner-mantenimiento {
   display: flex;
   justify-content: center;
@@ -449,7 +515,7 @@ body.disabledScroll {
   border-radius: 20px;
   gap: 20px;
 }
-.banner-mantenimiento .content .texto_mantenimiento h2 {
+.banner-mantenimiento .content .texto_mantenimiento h1 {
   padding: 20px;
   color: #fff;
 }
@@ -472,6 +538,19 @@ body.disabledScroll {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+#parrafo-mantenimiento {
+  padding: 3em;
+  text-align: center;
+}
+#parrafo-mantenimiento h2 {
+  padding: 0.5em;
+  color: #061A3E;
+}
+#parrafo-mantenimiento p {
+  padding: 0.6em;
+  font-size: 18px;
+}
+
 .contacto {
   height: auto;
   display: flex;
@@ -489,6 +568,7 @@ body.disabledScroll {
   padding: 20px;
   gap: 20px;
   width: 95%;
+  padding-bottom: 60px;
 }
 .contacto .container-contacto .box-info {
   color: #fff;
@@ -510,7 +590,7 @@ body.disabledScroll {
   font-size: 1.1rem;
 }
 .contacto .container-contacto .box-info .datos p i {
-  color: #025;
+  color: #264679;
   margin-right: 10px;
   font-size: 25px;
 }

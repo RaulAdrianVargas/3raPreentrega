@@ -52,6 +52,7 @@
     margin: 0 auto;
     max-width: 1200px;
     text-align: center;
+            background-color: #f5f7fc;
     .container_info{
         width: 100%;
         padding: 50px;
@@ -87,4 +88,8 @@
                 overflow: hidden;
             }
     }
+}
+
+body{
+    background-color: #f5f7fc;
 }

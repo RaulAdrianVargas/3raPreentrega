@@ -37,3 +37,7 @@
 .banner-galeria{
     @include baner(map-get($imagenes, imggaleria))
 }
+
+.banner-calor{
+    @include baner(map-get($imagenes, imgcalor))
+}

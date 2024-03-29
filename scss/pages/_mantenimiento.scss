@@ -12,7 +12,7 @@
         border-radius: 20px;
         gap: 20px;
         .texto_mantenimiento{
-            h2{
+            h1{
                 padding: 20px;
                 color: #fff;
             }
@@ -36,4 +36,17 @@
             }
     }
     }
+}
+
+#parrafo-mantenimiento{
+    padding: 3em;
+    text-align: center;
+        h2{
+            padding: 0.5em;
+            color: #061A3E;
+        }
+        p{
+            padding: 0.6em;
+            font-size: 18px;
+        }
 }

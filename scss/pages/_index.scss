@@ -38,13 +38,16 @@
     }
 }
 
+main{
+    background-color: #f5f7fc;
+}
 
 .sobre_nosotros{
     width: 100%;
     max-width: 768px;
     margin: auto;
     height: auto;
-    background-color: #EBF0F8;
+    background-color: #f5f7fc;
         .sobre_nosotros-container{
             padding: 3em;
             text-align: center;
@@ -66,3 +69,27 @@
         }
 }
 
+.banner-calor{
+    .h2_calor{
+        padding: 20px;
+        color: #fff;
+    }
+    .parrafo_calor{
+        font-size: 18px;
+        padding: 20px;
+        color: #fff;
+    }
+}
+
+#sobre_calor{
+    padding: 3em;
+    text-align: center;
+        h2{
+            padding: 0.5em;
+            color: #061A3E;
+        }
+        p{
+            padding: 0.6em;
+            font-size: 18px;
+        }
+}
