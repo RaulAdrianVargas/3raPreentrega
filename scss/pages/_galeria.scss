@@ -80,12 +80,14 @@
         background-color: $color-boton;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        gap: 20px 12px;
+        gap: 20px 6px;
             .container-video{
                 display: flex;
                 min-width: 300px;
                 max-width: 1024px;
                 overflow: hidden;
+                gap: 20px 12px;
+                padding:20px 12px;
             }
     }
 }

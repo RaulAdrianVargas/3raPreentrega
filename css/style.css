@@ -389,13 +389,15 @@ main {
   background-color: #025;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 20px 12px;
+  gap: 20px 6px;
 }
 #videos .container-galeria .container-video {
   display: flex;
   min-width: 300px;
   max-width: 1024px;
   overflow: hidden;
+  gap: 20px 12px;
+  padding: 20px 12px;
 }
 
 body {
