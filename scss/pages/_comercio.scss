@@ -39,6 +39,11 @@
 }
 
 #parrafo-comercial{
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+    height: auto;
+    background-color: #f5f7fc;
     padding: 3em;
     text-align: center;
         h2{
@@ -49,4 +54,9 @@
             padding: 0.6em;
             font-size: 18px;
         }
+        .boton-presupuesto{
+            @include botonpresupuesto
+        }
 }
+
+

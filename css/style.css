@@ -289,6 +289,11 @@ main {
 }
 
 #sobre_calor {
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  height: auto;
+  background-color: #f5f7fc;
   padding: 3em;
   text-align: center;
 }
@@ -436,17 +441,35 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-#nuevo-parrafo {
+.nuevo_parrafo {
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  height: auto;
+  background-color: #f5f7fc;
   padding: 3em;
   text-align: center;
 }
-#nuevo-parrafo h2 {
+.nuevo_parrafo h2 {
   padding: 0.5em;
   color: #061A3E;
 }
-#nuevo-parrafo p {
+.nuevo_parrafo p {
   padding: 0.6em;
   font-size: 18px;
+}
+.nuevo_parrafo .boton-presupuesto {
+  padding: 10px 20px;
+  background-color: #264679;
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #264679;
+  font-size: large;
+  transition: 0.3s;
+}
+.nuevo_parrafo .boton-presupuesto:hover {
+  color: #025;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .banner-comercio {
@@ -488,6 +511,11 @@ body {
 }
 
 #parrafo-comercial {
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  height: auto;
+  background-color: #f5f7fc;
   padding: 3em;
   text-align: center;
 }
@@ -498,6 +526,19 @@ body {
 #parrafo-comercial p {
   padding: 0.6em;
   font-size: 18px;
+}
+#parrafo-comercial .boton-presupuesto {
+  padding: 10px 20px;
+  background-color: #264679;
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #264679;
+  font-size: large;
+  transition: 0.3s;
+}
+#parrafo-comercial .boton-presupuesto:hover {
+  color: #025;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .banner-mantenimiento {
@@ -538,17 +579,35 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-#parrafo-mantenimiento {
+.info_mantenimiento {
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  height: auto;
+  background-color: #f5f7fc;
   padding: 3em;
   text-align: center;
 }
-#parrafo-mantenimiento h2 {
+.info_mantenimiento h2 {
   padding: 0.5em;
   color: #061A3E;
 }
-#parrafo-mantenimiento p {
+.info_mantenimiento p {
   padding: 0.6em;
   font-size: 18px;
+}
+.info_mantenimiento .boton-presupuesto {
+  padding: 10px 20px;
+  background-color: #264679;
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #264679;
+  font-size: large;
+  transition: 0.3s;
+}
+.info_mantenimiento .boton-presupuesto:hover {
+  color: #025;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .contacto {

@@ -5,3 +5,17 @@
     background-position: top;
     background-attachment: fixed;
 }
+
+@mixin botonpresupuesto{
+        padding: 10px 20px;
+        background-color: $color-principal;
+        color: #fff;
+        border-radius: 20px;
+        border: 2px solid $color-principal;
+        font-size: large;
+        transition: 0.3s;
+            &:hover{
+                color: $color-boton;
+                background-color: rgba(255,255,255,0.2);
+            }
+}
